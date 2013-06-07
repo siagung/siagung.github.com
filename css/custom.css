@@ -11,7 +11,11 @@ body
     -o-background-size: cover;
     background-size: cover;
 }
-.logo{font-family: 'Open Sans', sans-serif; font-size: 600%; font-weight: 200; line-height: 70px; margin-bottom:40px;}
+
+.container {
+    height:100%;
+}
+.logo{font-family: 'Open Sans', sans-serif; font-size: 400%; font-weight: 200; line-height: 70px; margin-bottom:40px;}
 
 h2.about {font-weight:200; font-size:36px; margin-bottom:20px;}
 
@@ -21,4 +25,21 @@ h2.about {font-weight:200; font-size:36px; margin-bottom:20px;}
 
 ::selection{background:#eb4141; color:#fff; text-shadow:none;}
 
-.heart{color:#eb4141;}
+a.linked{color:inherit;text-decoration: none}
+
+i.social-icon{
+    font-family: 'Open Sans', sans-serif; font-size: 1.5em; font-weight: 200; padding-right: 10px;
+}
+
+
+[class*="foundicon-"]:after { position: relative; top: -8px; left: 5px;  font-size: 70%; font-style: normal; padding-right: 10px }
+
+.foundicon-twitter:after          { content: "@agoeng_es";}
+.foundicon-github:after           { content: "siagung.wordpress";}
+.foundicon-wordpress:after        { content: "siagung";}
+
+footer {
+    position:absolute;
+    bottom:0;
+    height:60px;   /* Height of the footer */
+}
