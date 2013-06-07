@@ -1,8 +1,9 @@
 /*LOGO FONT*/
-{ margin: 0; padding: 0; }
-
-body
-{
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
     background-image:url('../img/simple-blur-ipad-background.jpg');
     background-color:#cccccc;
     width: 100%;
@@ -13,13 +14,17 @@ body
 }
 
 .container {
-    height:100%;
+    min-height:90%;
+    position:relative;
 }
+
+
 .logo{font-family: 'Open Sans', sans-serif; font-size: 400%; font-weight: 200; line-height: 70px; margin-bottom:40px;}
 
 h2.about {font-weight:200; font-size:36px; margin-bottom:20px;}
 
 .info{font-size: 24px; line-height: 36px; font-weight:200;}
+
 
 .form{padding-top:20px;}
 
@@ -28,18 +33,18 @@ h2.about {font-weight:200; font-size:36px; margin-bottom:20px;}
 a.linked{color:inherit;text-decoration: none}
 
 i.social-icon{
-    font-family: 'Open Sans', sans-serif; font-size: 1.5em; font-weight: 200; padding-right: 10px;
+    font-family: 'Open Sans', sans-serif; font-size: 1.5em; font-weight: 200;padding-top: 20px;  padding-right: 10px;
 }
 
 
-[class*="foundicon-"]:after { position: relative; top: -8px; left: 5px;  font-size: 70%; font-style: normal; padding-right: 10px }
+[class*="foundicon-"]:after { position: relative; top: -8px; left: 5px;  font-size: 70%; font-style: normal;padding-right: 10px }
 
 .foundicon-twitter:after          { content: "@agoeng_es";}
-.foundicon-github:after           { content: "siagung";}
-.foundicon-wordpress:after        { content: "siagung.wordpress";}
+.foundicon-github:after           { content: "siagung.github.io";}
+.foundicon-wordpress:after        { content: "siagung.wordpress.com";}
 
 footer {
     position:absolute;
     bottom:0;
-    height:60px;   /* Height of the footer */
+    height:5px;   /* Height of the footer */
 }
