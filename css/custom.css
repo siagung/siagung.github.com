@@ -40,8 +40,8 @@ i.social-icon{
 [class*="foundicon-"]:after { position: relative; top: -8px; left: 5px;  font-size: 70%; font-style: normal;padding-right: 10px }
 
 .foundicon-twitter:after          { content: "@agoeng_es";}
-.foundicon-github:after           { content: "siagung.github.io";}
-.foundicon-wordpress:after        { content: "siagung.wordpress.com";}
+.foundicon-github:after           { content: "github";}
+.foundicon-wordpress:after        { content: "wordpress";}
 
 footer {
     position:absolute;
