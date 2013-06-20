@@ -81,10 +81,10 @@ a.linked{
 }
 
 .topcolumns .logo {
-    background: url('../img/logo.png') 50% 0 no-repeat fixed;
     height: 510px;
     text-align: center;
     position: absolute;
+    font-size: 100px;
     width: 960px;
     z-index: 200
     /*
@@ -331,6 +331,11 @@ ul.features li img {
         background-color: #356635;
     z-index: 200
     }*/
+    .topcolumns .logo {
+
+        font-size: 70px;
+
+    }
     .wrapper {
         width: 100%;
         background: url('../img/background-h.jpg') 50% -75px no-repeat fixed;
@@ -404,8 +409,16 @@ ul.features li img {
 
     }
 
+
+
     .topcolumns {
-        margin-top: 0;
+        margin-top: 10;
+    }
+
+    .topcolumns .logo {
+
+        font-size: 50px;
+
     }
 
 
