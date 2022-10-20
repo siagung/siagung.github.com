@@ -105,7 +105,7 @@
         </div>
         <div class="clearfix"></div>
         <div class="copyright">
-            <p>&copy;<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script> @agoeng_es</p>
+            <p>&copy;<span id="year"></span> @agoeng_es</p>
         </div>
     </div>
 </div>
@@ -125,6 +125,7 @@
         $('.logo').parallax("50%", 510, 0.3, true);
         $('#bodycontent').parallax("50%", 0, 0.1, true);
         $('#kmk-menu, #kmk-menu1, #kmk-menu2').iconmenu();
+        $('#year').text( (new Date).getFullYear() );
     });
 </script>
 </body>
